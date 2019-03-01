@@ -1,0 +1,39 @@
+{
+  "name": "bedrock-stats-http",
+  "version": "0.0.1-0",
+  "description": "Bedrock Stats HTTP API",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-stats-http.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-stats-http/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-stats-http",
+  "dependencies": {
+    "express-query-int": "^3.0.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.12.0",
+    "bedrock-express": "^2.1.0",
+    "bedrock-passport": "^4.0.4",
+    "bedrock-stats": "^1.0.0",
+    "bedrock-validation": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-digitalbazaar": "^2.0.0"
+  }
+}
